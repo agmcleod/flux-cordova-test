@@ -1,0 +1,63 @@
+# ANDROID / ECLIPSE
+
+# built application files
+*.apk
+*.ap_
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files - android project subfolder
+Android/bin/
+Android/gen/
+Android/assets/
+
+# generated files
+bin/
+gen/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# IOS / Xcode
+build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+*.xcworkspace
+!default.xcworkspace
+xcuserdata
+profile
+*.moved-aside
+IOS/www/
+
+# OSX
+.DS_Store
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+# Ignore platform data. May need to adjust later.
+platforms
+
+# Ignore SASS cache
+src/assets/stylesheets/.sass-cache/*
+src/assets/stylesheets/vendor/.sass-cache/*
+plugins/
+
+# Ignore accidental, incorrect Stasis output directory
+# (Stasis should be run from inside the src directory, not the project root)
+src/public
+node_modules
